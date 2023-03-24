@@ -1,0 +1,71 @@
+
+
+ 
+  
+  
+  
+/*Edição do body e o main*/
+
+body > main{
+    background-color: #111010;
+    width: auto;
+    padding: 10px;
+    box-shadow: 2px 4px 10px rgb(54, 53, 53);
+    border-radius: 3px;
+    color: #f4f9fa;
+    margin: auto;
+
+   
+}
+
+body > main article{
+    padding: 10px;
+}
+
+body > main aside{
+    padding: 10px;
+}
+.imagens_body{
+    place-items: center;
+}
+
+/*Formatação do Menu*/
+
+
+
+/*Formatação do Header (cabeçalho)*/
+
+ .imagem{
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    top:70px ;
+    left: 900px;
+    padding: 15px;
+}
+.imagem > a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+
+
+
+
+ img{
+    width: 300px;
+    border-radius: 4px;
+ }
+
+ 
+ 
+ 
+ 
+ /*
+ selector complexo, salta o h1 e formata o p que vem depois do h1
+h1 + p{
+    color: red;
+}
+*/

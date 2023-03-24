@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body{
+    background-color: #2b2bee93;
+      
+}
+/*Edição dos pagráfos */
+.caixa{
+    background-color:#feffff ;
+    border-radius: 5px;
+    box-shadow: 10px 5px 10px #292525;
+    height: 315px;
+    width: 315px;
+    margin: 4px;
+    padding: 4px;
+    display: inline-block;
+}
+.caixa:hover{
+    background-color: #001aff;
+}
+p{
+    
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-display: justify;
+}
+h1{
+    text-align: center;
+}
+a{
+    color: black;
+}
+
+/*Edição do rodapé*/
+div#rodape{
+   margin: 2px 4px 2px 6px;
+    height: 200px;
+    width: 100%;
+    background-color: #000202;
+    color: white;
+}
+
+ 
